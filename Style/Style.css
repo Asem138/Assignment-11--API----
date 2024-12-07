@@ -1,0 +1,30 @@
+body {
+    background: linear-gradient(to bottom, #87ceeb, #f0f8ff);
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    color: #333;
+    font-weight: bold;
+}
+
+.card {
+    animation: fadeInUp 0.8s;
+    margin-bottom: 20px;
+}
+
+.card img {
+    max-width: 50px;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
